@@ -31,6 +31,7 @@ function addToTable() {
     row.append(dataName, dataEmail, dataNumber);
     myTable.append(row);
 
-    fullName = '';
-    console.log(fullName);
+    document.getElementById('fullName').value = '';
+    document.getElementById('email').value = '';
+    document.getElementById('phoneNumber').value = '';
 }
